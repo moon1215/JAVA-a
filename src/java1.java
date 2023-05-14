@@ -1,12 +1,14 @@
 public class java1{
 	public static void main(String[] args) {
 		
-		for(int i=1; i<6; i++){
-			for(int j=1; j>i; j++) {
+		for(int i=0; i<5; i++){
+			for(int j=4; j>=0; j--) {
+				if(i<j) {
 				System.out.print(" ");
-			}
-			for(int j=1; j<i; j++) {
+			}else {
 				System.out.print("*");
+			}
+			
 			}
 			System.out.println();
 		}
